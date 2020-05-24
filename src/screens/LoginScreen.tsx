@@ -2,7 +2,6 @@ import * as React from "react";
 import { Image, StyleSheet, View } from "react-native";
 import Button from "../components/Button";
 import FormTextInput from "../components/FormTextInput";
-import imageLogo from "../assets/images/medi.png";
 import colors from "../config/colors";
 import strings from "../config/strings";
 
@@ -32,7 +31,10 @@ class LoginScreen extends React.Component<{}, State> {
   render() {
     return (
       <View style={styles.container}>
-        <Image source={imageLogo} style={styles.logo} />
+        <Image
+          source={require("../assets/images/medi.png")}
+          style={styles.logo}
+        />
         <View style={styles.form}>
           <FormTextInput
             value={this.state.email}
