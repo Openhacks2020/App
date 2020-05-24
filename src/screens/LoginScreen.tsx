@@ -2,7 +2,7 @@ import * as React from "react";
 import { Image, StyleSheet, View } from "react-native";
 import Button from "../components/Button";
 import FormTextInput from "../components/FormTextInput";
-import imageLogo from "../assets/medi.png";
+import imageLogo from "../assets/images/medi.png";
 import colors from "../config/colors";
 import strings from "../config/strings";
 
